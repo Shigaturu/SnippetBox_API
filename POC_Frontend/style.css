@@ -1,0 +1,31 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.snippet-card {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.snippet-card-header {
+    padding: 1rem 1.25rem;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.snippet-card-body {
+    padding: 1.25rem;
+}
+
+/* Style pour le bloc de code */
+pre {
+    background-color: #212529; /* Noir */
+    color: #f8f9fa; /* Blanc */
+    padding: 1rem;
+    border-radius: 0.25rem;
+    white-space: pre-wrap; /* Fait un retour à la ligne si le code est trop long */
+    word-wrap: break-word;
+}
