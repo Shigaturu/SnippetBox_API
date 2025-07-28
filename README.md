@@ -35,22 +35,12 @@ En tant que développeurs, nous réutilisons constamment des bouts de code : des
 
 ### 1. Lancer le Backend (API)
 
-```bash
-# Clonez le dépôt
-git clone [VOTRE_URL_GITHUB_ICI]
-
-# Naviguez dans le dossier de l'API
-cd SnippetBox_API
-
-# Lancez l'application
-dotnet run
-```
 L'API sera disponible sur `https://localhost:7235` (vérifiez le port dans `launchSettings.json`).
 
 ### 2. Lancer le Frontend (POC)
 
 Le POC est un simple client web statique.
-1.  Naviguez dans le dossier `POC_Frontend` (ou le nom que vous lui avez donné).
+1.  Naviguez dans le dossier `POC_Frontend`.
 2.  Ouvrez le fichier **`index.html`** directement dans votre navigateur web (Chrome, Firefox, etc.).
 
 ---
@@ -64,10 +54,7 @@ Une fois l'API lancée, la documentation interactive Swagger est accessible ici 
 
 ### Compte de Test
 
-Pour tester l'application et l'API, vous pouvez vous enregistrer avec n'importe quel identifiant, ou utiliser le compte suivant pour la connexion :
-
-* **Nom d'utilisateur :** `test`
-* **Mot de passe :** `Password123!`
+Pour tester l'application et l'API, vous devez vous enregistrer avec n'importe quel identifiant (Register with request API),
 
 **Workflow de test :**
 1.  Utilisez `POST /api/auth/register` pour créer un compte.
